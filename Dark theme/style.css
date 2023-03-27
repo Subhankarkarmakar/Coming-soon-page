@@ -1,0 +1,58 @@
+/* For Dark theme */
+
+body {
+    background-color: rgb(26, 24, 24);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    background: -webkit-linear-gradient(white, blue, aqua);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    height: 38px;       
+}
+.email{
+    width: 50%;
+    border-radius: 10px 0px 0px 0px;
+    background-color: black;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+button{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-radius: 0px 0px 10px 0px;
+    border: none;
+
+}
+
+
+
+
