@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img src="img/moon.png" alt="This is a logo" id="icon">
+    </nav>
+    <div class="wrapper">
+        <h1>Coming Soon</h1>
+        <p>From automation of people processes to creating<br> an engaged and driven culture.</p>
+        <form>
+            <input type="email" placeholder="Please enter your email address" class="email" >
+            <button type="submit">Notify Me</button>
+        </form>
+        <p class="small-text">_Notify me when App is launched_</p>
+    </div>
+    <script>
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function(){
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+                icon.src = "img/sun1.png";
+            }
+            else{
+                icon.src = "img/moon.png"
+            }
+        }
+    </script>
+</body>
+</html>
