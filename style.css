@@ -9,6 +9,10 @@
 #icon{
     width: 50px;
     cursor: pointer;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
 }
 
 body {
